@@ -5,4 +5,4 @@ cmds = ["npm install"]
 cmds = ["npm run build"]
 
 [start]
-cmd = "node start.js"
+cmd = "npm run start:prod"
