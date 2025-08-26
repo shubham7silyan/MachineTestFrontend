@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start:prod": "serve -s build -p $PORT",
+    "start:prod": "serve -s build -p ${PORT:-3000}",
     "build": "chmod +x node_modules/.bin/react-scripts && react-scripts build",
     "build:railway": "npm install && chmod +x node_modules/.bin/* && react-scripts build",
     "test": "react-scripts test",
